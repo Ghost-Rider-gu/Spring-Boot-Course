@@ -6,7 +6,10 @@
 	<groupId>siendev.corp.courses</groupId>
 	<artifactId>spring-boot-course</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>spring-boot-course-api</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>spring-boot-course</name>
 	<description>Spring Boot Course</description>
